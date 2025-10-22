@@ -1,0 +1,28 @@
+Algorithm for Multiple Inheritance
+Step 1: Start the program.
+
+Step 2: Define the base class Engine
+  → Declare a protected data member engineCC (integer).
+  → Define a public member function getEngineInfo() that:
+   • Displays: "Enter Engine Capacity (in CC):"
+   • Accepts user input for engineCC.
+
+Step 3: Define the base class Body
+  → Declare protected data members color and type (string).
+  → Define a public member function getBodyInfo() that:
+   • Displays: "Enter Vehicle Color:" and takes input for color.
+   • Displays: "Enter Body Type (SUV/Sedan/Hatchback/etc):" and takes input for type.
+
+Step 4: Define the derived class Car that inherits publicly from both Engine and Body.
+  → Define a public member function showDetails() that:
+   • Displays "--- Vehicle Information ---"
+   • Displays engineCC, color, and type.
+
+Step 5: In the main() function:
+  1. Create an object obj of class Car.
+  2. Call obj.getEngineInfo() to input engine details.
+  3. Call obj.getBodyInfo() to input body details.
+  4. Call obj.showDetails() to display all vehicle details.
+
+Step 6: End the program.
+
